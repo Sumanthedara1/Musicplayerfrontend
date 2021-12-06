@@ -1,0 +1,769 @@
+body{
+
+  background-color: hsl(231deg 53% 10%);;
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/*nav*/
+body nav{
+
+	display: flex;
+	justify-content:space-between;
+  top: 0;
+  height: 12vh;
+  width: 90vw;
+  position: fixed;
+  z-index: 1;
+  background-color: red;
+   background-color: hsl(231deg 53% 10%);;
+
+  /*margin: 60px;*/
+}
+
+ nav div{
+
+	display: flex;
+ 	justify-content:space-between;
+
+}
+/*searchbo*/
+#sbn{
+
+  height: 35px;
+  width:280px;
+  background-color: #101642;
+  display: flex;
+  margin: 10px;;
+ 
+}
+#sbn{
+  
+   background-color: #101642;
+ 
+}
+#t{
+  opacity: .65;
+  font-size: 10px;
+}
+#bt{
+  font-size: 25px;
+}
+#sbn i{
+  /*border: 2px solid black;*/
+  background-color: #101642;
+  padding: 8px;
+  margin: ;
+}
+#sbn input{
+
+  border: none;
+  position: relative;
+
+}
+#sbn div{
+  display: flex;
+}
+#sbn img{
+  border-radius: 50%;
+
+  margin: 5px;
+}
+
+#sbn{
+  display: flex;
+  justify-content: space-between;
+}
+/*search box*/
+
+
+p{
+  color: white;
+}
+i{
+  border-color: white;
+}
+
+
+/*nav input*/
+input{
+
+  height: 30px;
+  width: 200px;
+
+}
+/**/
+#sd{
+	display: block;
+}
+
+#sd h1{
+
+  line-height: 15px;
+
+}
+
+/*nav*/
+
+
+/*slide image bar*/
+.slidershow{
+  /*width: 700px;*/
+  height: 400px;
+  overflow: hidden;
+
+}
+.middle{
+  position: relative;
+ 
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+input{
+  margin:0px 15px;
+}
+
+#s1{
+  width: 65%;
+  margin: 120px  60px;
+  position: relative;
+  top: 4%;
+
+}
+
+
+h1{
+  color: white;
+}
+
+
+
+
+/*playsymbol*/
+
+#tri{
+    width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-left: 18px solid white;
+  border-bottom: 18px solid transparent;
+      /*posisition:relative;*/
+    position: relative;
+    left:16%;
+    top:-57%;
+    border-radius: 10%;
+   opacity: 0;
+
+}
+
+#tri:hover{
+
+opacity: 1;
+  border-left: 18px solid white;
+
+
+}
+/**/
+
+/*latest songs grid*/
+#ans1{
+
+  display: grid;
+  height: 50vh;
+  width: 70vw;
+
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+
+#ans2 {
+  display: flex;
+}
+
+#ans2 img{
+
+  height: 80%;
+  width: 40%;
+}
+#ans2 #p{
+
+margin: 10px;
+color: white;
+display: inline-block;
+position: relative;
+font-size: 15px;
+bottom: 40%;
+/*line-height: 20px;*/
+}
+
+#ans1{
+  width: 60vw;
+}
+#ans2 p {
+
+margin: 5px;
+color: white;
+display: inline-block;
+position: relative;
+bottom: 40%;
+}
+#ans2 {
+  display: flex;
+}
+#ans2 img{
+
+  height: 80%;
+  width: 40%;
+}
+/**/
+/*latest songs grid*/
+
+
+
+/*popular artists flex*/
+
+#th1 div{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+#th1 img{
+
+height:150px;
+width: 130px;
+border-radius: 50%;
+margin: 5px;
+
+
+}
+#th1{
+  width: 100%;
+}
+
+/*drop down button*/
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  size: 20px;
+  color: white;
+     background-color: hsl(231deg 53% 10%);;
+
+  padding: 16px;
+  font-size: 16px;
+  height: 5px;
+  width: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown span{
+  display: inline-block;
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  /*background-color: ;*/
+   background-color: hsl(231deg 53% 10%);;
+      color: hsl(231deg 53% 10%);;
+;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #21252d;
+  /*color: white;*/
+  min-width: 80px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 6px 8px;
+  text-decoration: none;
+  /*border: 2px dashed; black;*/
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  /*background-color: white;*/
+}
+
+/*side queue*/
+#side-bar {
+  position: fixed;
+}
+#side-bar h1{
+  position: relative;
+}
+#sq{
+
+position: fixed;
+}
+  
+/**/
+#spt{
+  background-color: hsl(233deg 61% 16%);
+  margin: 25px 15px;
+  /*height: 200px;*/
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/**/
+#spt img{
+
+   height: 150px;
+   width: 120px;
+   border-radius: 50%;
+   /*margin: 10px;*/
+}
+
+
+#th1 p{
+  /*margin: 10px;*/
+  position: relative;
+  left: 25%;
+  top: -5%;
+}
+#nur{
+
+  display: flex;
+  width: 65%;
+}
+#nur img{
+
+  height: 180px;
+  width: 250px;
+  margin: 10px;
+}
+
+#co{
+  font-size: 25px;
+  opacity: .8;
+}
+#th1 #tri{
+
+  left: 45%;
+  top: -60%;
+}
+
+#nur img{
+
+  transition: transform;
+  cursor: pointer;
+transition-duration: 1s;
+/*margin: 30px;*/
+
+transition-timing-function: ease-in-out;
+/*transition-duration: 10s;*/
+
+}
+#nur{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65vw;
+}
+#nur img:hover{
+
+
+   transform: scale(1.3);  
+
+}
+/*playlist 1 && playlist2*/
+
+#playlist1 {
+  margin: 60px;
+ 
+
+}
+
+#playlist1  img{
+  height: 180px;
+  width: 150px;
+  margin: 10px;
+  transition: transform;
+  /*cursor: pointer;*/
+    transition-duration: .3s;
+/*margin: 30px;*/
+
+/*transition-timing-function: ease-in-out;*/
+/*transition-duration: 10s;*/
+
+}
+#playlist2  img{
+  height: 180px;
+  width: 150px;
+  margin: 10px;
+  transition: transform;
+    transition-duration: .3s;
+
+}
+
+#playlist1 img:hover{
+
+
+   transform: scale(1.05);  
+
+}
+#playlist2 img:hover{
+
+
+   transform: scale(1.05);  
+
+}
+
+
+
+#playlist1  div{
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 10px;*/
+}
+#playlist1 #tri{
+  left: 50%;
+  top: -60%;
+  /*opacity: 1;*/
+}
+#playlist2 {
+  margin: 60px;
+}
+
+#playlist2  img{
+  height: 180px;
+  width: 150px;
+  margin: 5px;
+  margin: 10px;
+   transition: transform;
+  /*cursor: pointer;*/
+    transition-duration: .3s;
+}
+
+#playlist2 #tri{
+  left: 50%;
+  top: -60%;
+  /*opacity: 1;*/
+}
+#playlist2  div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+#outer-div
+{   display: flex;
+    width:100vw;
+    position: fixed;
+    height:12vh;
+    visibility: hidden;
+    /*background: linear-gradient(#261838,#ffffff,#986853);*/
+    background-color:#332f2f;
+    bottom: 0%;
+}
+#outer-div:target
+{
+    visibility: visible;
+}
+#inner-div-1
+{
+    height:100%;
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#inner-div-1 img{
+    height:100%;
+    width:6vw;
+    margin: 5px;
+    border-radius: 30%;
+}
+#inner-div-2
+{
+    width:50%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons
+{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+}
+#timing
+{
+    width:100%;
+    height:9%;
+    display: flex;
+    justify-content: space-around;
+}
+.music-bar
+{
+    width:78%;
+    height: 100%;
+    /* position: relative; */
+    justify-content: center;
+
+    background: cadetblue;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.percentage
+{
+    width:40%;
+    height: 100%;
+     /*position: absolute; */
+    background: black;
+}
+#inner-div-3
+{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#speaker
+{
+    width:60%;
+    margin-bottom: 10%;
+    height: 8%;
+}
+
+/*sidebar*/
+
+#side-bar{
+  position: fixed;
+}
+
+
+
+#side-bar{
+
+  /*display: block;*/
+  top: 15%;
+  /*display: flex;*/
+
+  /*position: fixed;*/
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  /*right: 0;*/
+  width: 25%;
+  margin: 10px;
+  right: 0;
+}
+#side-bar img{
+
+   display: block;
+   margin: 10px;
+   /*position: relative;*/
+   /*left: 0;*/
+   border-radius: 15%;
+  height: 50px;
+
+  width: 50px;
+}
+#side-bar div{
+  display: flex;
+  justify-content: space-between;
+}
+#side-bar span{
+  display: flex;
+  /*justify-content: space-between;*/
+  /* height: 40px; */
+  /* width: 80px; */
+}
+#side-bar i{
+  position: relative;
+  top: 40%;
+}
+
+
+#sq{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+#sq div{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+#sq{
+
+  overflow-y: scroll;
+  height: 90%;
+}
+
+#fixedpart{
+  display: flex;
+  position: fixed;
+  /* position: sticky; */
+   background-color: hsl(231deg 53% 10%);;
+  
+  height: 50px;
+  z-index: 1;
+  justify-content: space-between;
+  width: 20%;
+  top:13%;
+}
+#s-b p{
+  font-size: 20px;
+}
+
+#fixedpart i {
+  color: green;
+}
+
+#fixedpart .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#fixedpart .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #21252d;
+  /*color: white;*/
+  min-width: 80px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+#s-b{
+  position: fixed;
+}
+
+
+
+/*just side bar*/
+#side-bar{
+
+  /*display: block;*/
+  top: 20%;
+  /*overflow-y: scroll;*/
+
+  position: absolute;
+  right: 0;
+  height: 80%;
+}
+
+#side-bar span p{
+  align-self: center;
+}
+#sq{
+
+   overflow-y: scroll;
+   position: fixed;
+}
+#sq div{
+  display: flex;
+  justify-content: space-between;
+}
+#sq div span{
+
+  display: flex;
+  width: 40%;
+}
+#side-bar img{
+
+   display: block;
+   margin: 20px;
+   /*position: relative;*/
+   /*left: 0;*/
+   border-radius: 15%;
+  height: 50px;
+
+  width: 50px;
+}
+
+#side-bar h2{
+  color: white;
+}
+
+
+
+
+
