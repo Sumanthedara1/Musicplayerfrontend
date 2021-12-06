@@ -1,0 +1,486 @@
+body{
+	background-color: hsl(231deg 53% 10%);
+	/*margin: 60px;*/
+
+	/*width: 70vw;*/
+
+
+}
+nav{
+
+	height: 20vh;
+	width: 100vw;
+	/*margin: 15px;*/
+}
+
+ nav{
+
+	display: flex;
+	justify-content:space-between;
+	/*margin: -60px;*/
+  height: 10vh;
+  width: 90vw;
+  /*margin: 60px;*/
+}
+
+/*bo*/
+#box{
+	border-radius: 0%;
+background-color: #101642;
+}
+ nav img{
+	/*margin: 5px;*/
+}
+ nav div{
+
+	display: flex;
+	justify-content:space-between;
+
+}
+input{
+	margin: -5px 10px;
+}
+#sbn i {
+    border: 2px solid ;
+    background-color: #101642;
+    padding: 8px;
+}
+i {
+    size: 30px;
+    height: 15px;
+    width: 25px;
+    position: relative;
+    margin: 5px;
+    color: white;
+    /*top: 25%;*/
+}
+#sd{
+	display: block;
+}
+
+#sd h1{
+
+  line-height: 15px;
+
+}
+#sbn input {
+    border: none;
+}
+
+#sbn{
+	margin: 5px;
+}
+
+nav #sbn i{
+
+	top: 0;
+
+    margin: 0;
+}
+#sbn i {
+    border:none;
+     /*2px solid black;*/
+    background-color: #101642;
+    padding: 8px;
+    height: 16px;
+}
+#sbn img {
+    border-radius: 50%;
+    margin: 0px 10px;
+    height: 30px;
+    width: 35px;
+}
+#sbn div {
+    display: flex;
+}
+input{
+
+  height: 30px;
+  width: 200px;
+}
+
+#s1{
+
+	/*top: 25%;*/
+	/*position: absolute;*/
+	margin: 60px;
+	display: flex;
+	background-color: hsl(233deg 61% 16%);
+	width: 60vw;
+	height: 50vh;
+}
+#about{
+
+	background-color: hsl(233deg 61% 16%);
+	display: flex;
+	justify-content: space-around;
+	/*top: 20%;*/
+	overflow: visible;
+
+}
+
+ #img{
+
+	width: 40%;
+	height: 100%;
+	/*height: auto;*/
+	/*flex-grow: 1;*/
+}
+
+#info{
+    color: white;
+	overflow: visible;
+
+	width: 75%;
+	margin: 3%;
+
+}
+#info {
+
+	/*overflow-wrap: break-word;*/
+}
+#info span{
+
+	height: 50%;
+	width: 85%;
+	display: inline-block;
+}
+
+button{
+
+	height: 25px;
+	width: 90px;
+	background-color: #7a52b3;
+	display: block;
+}
+
+input{
+	margin: 0;
+}
+#songs{
+	display: flex;
+	margin: 60px 0px;
+	width: 60vw;
+	flex-direction: column;
+
+}
+#ou {
+	display: flex;
+	height: 80px;
+	/*width: 70%;*/
+	/*background-color: red;*/
+	margin: 15px 0px;
+		/*background-color: hsl(231deg 53% 10%);*/
+      background-color: hsl(233deg 61% 16%);
+
+      /*background-color: black;*/
+	justify-content: space-between;
+}
+/*dp*/
+#nam{
+	 opacity: .65;
+	  font-size: 12px ;
+}
+#img img{
+	height: 100%;
+	width: 100%;
+}
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  size: 20px;
+  color: white;
+     background-color: hsl(231deg 53% 10%);;
+
+  padding: 16px;
+  font-size: 16px;
+  height: 5px;
+  width: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown span{
+  display: inline-block;
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  /*background-color: ;*/
+   background-color: hsl(231deg 53% 10%);;
+      color: hsl(231deg 53% 10%);;
+;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#info #sp{
+
+	margin: 0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*dpp*/
+#out{
+	display: flex;
+	height: 130px;
+	width: 70%;
+	/*background-color: red;*/
+	margin: 5px 0px;
+		/*background-color: hsl(231deg 53% 10%);*/
+      /*background-color: hsl(233deg 61% 16%);*/
+
+      /*background-color: black;*/
+	justify-content: space-between;
+}
+#songs p{
+	color: white;
+	line-height: 5px;
+	/*margin: 2px;*/
+}
+#songs img{
+
+	height: 50px;
+	width: 50px;
+}
+
+
+#inn{
+
+	display: flex;
+}
+#innr{
+	display: flex;
+}
+#inn p{
+	position: relative;
+	vertical-align: middle;
+	margin: ;
+	/*top: 1%;*/
+}
+
+#innr p{
+	position: relative;
+	vertical-align: middle;
+	margin: ;
+	/*top: 1%;*/
+}
+i{
+	size: 30px;
+	height: 25px;
+	width: 25px;
+	position: relative;
+	margin: 5px;
+	top: 25%;
+}
+#songs{
+	margin: 60px;
+}
+
+#sbr img{
+	/*background-color: hsl(231deg 53% 10%);*/
+
+	height: 100px; 
+	width: 100px;
+
+}
+
+#sbr{
+		background-color: hsl(231deg 53% 10%);
+
+
+}
+
+#sbr{
+
+
+   	display: flex;
+   	flex-direction: column;
+   	position: absolute;
+   	top: 20%;
+   	right: 0;
+   	width: 30vw;
+
+}
+#sbr #out{
+	display: flex;
+	justify-content: space-between;
+}
+#side-bar{
+
+  /*display: block;*/
+  top: 20%;
+
+  position: absolute;
+  right: 0%;
+}
+#side-bar img{
+
+   display: block;
+   margin: 40px;
+   /*position: relative;*/
+   /*left: 0;*/
+   border-radius: 15%;
+  height: 50px;
+
+  width: 50px;
+}
+#t{
+	font-size: 13px;
+	opacity: .65;
+	margin: 0;
+}
+#side-bar{
+
+  /*display: block;*/
+  top: 100%;
+  /*display: flex;*/
+
+  position: absolute;
+  /*right: 5%;*/
+  width: 30%;
+}
+#side-bar img{
+
+   display: block;
+   margin: 10px;
+   /*position: relative;*/
+   /*left: 0;*/
+   border-radius: 15%;
+  height: 50px;
+
+  width: 50px;
+}
+#side-bar div{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#side-bar span{
+  display: flex;
+  /*justify-content: space-between;*/
+}
+#side-bar i{
+  position: relative;
+  top: 20%;
+}
+
+#out{
+	justify-content: space-between;
+}
+i{
+	color: white;
+}
+#out{
+	width: 95%;
+}
+
+
+
+/* footer */
+
+#outer-div
+{   display: flex;
+    width:100vw;
+    position: fixed;
+    height:12vh;
+    visibility: visible;
+    /*background: linear-gradient(#261838,#ffffff,#986853);*/
+    background-color:#332f2f;
+    bottom: 0%;
+}
+/*#outer-div:target
+{
+    visibility: visible;
+}*/
+#inner-div-1
+{
+    height:100%;
+    width:25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#inner-div-1 img{
+    height:100%;
+    width:6vw;
+    margin: 5px;
+    border-radius: 30%;
+}
+#inner-div-2
+{
+    width:50%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons
+{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+}
+#timing
+{
+    width:100%;
+    height:9%;
+    display: flex;
+    justify-content: space-around;
+}
+.music-bar
+{
+    width:78%;
+    height: 100%;
+    /* position: relative; */
+    justify-content: center;
+
+    background: cadetblue;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.percentage
+{
+    width:40%;
+    height: 100%;
+     /*position: absolute; */
+    background: black;
+}
+#inner-div-3
+{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#speaker
+{
+    width:60%;
+    margin-bottom: 10%;
+    height: 8%;
+}
